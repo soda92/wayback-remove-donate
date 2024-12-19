@@ -1,0 +1,13 @@
+{
+  "name": "Wayback WebArchive Disable Donate",
+  "description": "Disable Donate banner in Wayback machine",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "js": ["scripts/demo.js"],
+      "matches": ["https://web.archive.org/*"],
+      "run_at": "document_start"
+    }
+  ]
+}
