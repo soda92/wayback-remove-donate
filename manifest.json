@@ -5,7 +5,7 @@
   "manifest_version": 3,
   "content_scripts": [
     {
-      "js": ["scripts/demo.js"],
+      "js": ["demo.js"],
       "matches": ["https://web.archive.org/*"],
       "run_at": "document_start"
     }
